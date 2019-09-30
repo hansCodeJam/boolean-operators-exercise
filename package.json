@@ -12,5 +12,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hansCodeJam/boolean-operators-exercise.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hansCodeJam/boolean-operators-exercise/issues"
+  },
+  "homepage": "https://github.com/hansCodeJam/boolean-operators-exercise#readme"
 }
