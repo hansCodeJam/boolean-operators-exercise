@@ -10,48 +10,48 @@ function isInDanger(grade) {
   return grade >= 60 && grade <= 71;
 }
 
-function isCoasting() {
-
+function isCoasting(grade) {
+  return grade >= 72 && grade <= 83;
 }
 
-function isSucceeding() {
-
+function isSucceeding(grade) {
+  return grade >= 84 && grade <= 92;
 }
 
-function isFailing() {
-
+function isFailing(grade) {
+  return grade < 60;
 }
 
-function isAcing() {
-
+function isAcing(grade) {
+  return grade > 92;
 }
 
-function isStudent() {
-
+function isStudent(str) {
+  return str === 'student';
 }
 
-function isTeacher() {
-
+function isTeacher(str) {
+ return str === 'teacher';
 }
 
-function isAdmin() {
-
+function isAdmin(str) {
+ return str === "admin"
 }
 
-function isElementary() {
-
+function isElementary(str) {
+  return str === 'elementary'
 }
 
-function notAnElementarySchoolAdministrator() {
-
+function notAnElementarySchoolAdministrator(str, num) {
+  return str === 'teacher' && (num >= 6 && num <= 8)
 }
 
-function isMiddleSchoolTeacher() {
-
+function isMiddleSchoolTeacher(str1, str2) {
+  return !str1 === 'elementary' || !str2 === 'admin';
 }
 
-function differentPeople() {
-
+function differentPeople(name1, name2) {
+  return 
 }
 
 module.exports = {
